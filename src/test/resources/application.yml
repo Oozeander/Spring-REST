@@ -1,0 +1,13 @@
+# CORS
+web:
+  cors:
+    allowed-origins: "http://www.mywebsite.com"
+    allowed-methods: GET, POST, PATCH, PUT, DELETE
+    max-age: 3600
+    allowed-headers: "Requestor-Type"
+    exposed-headers: "X-Get-Header"
+
+# EXTERNAL APIs
+api:
+  json-placeholder:
+    base-url: "http://localhost:8787"
